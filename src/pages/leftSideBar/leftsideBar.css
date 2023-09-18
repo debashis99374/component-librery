@@ -1,0 +1,25 @@
+.leftsideBar {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+}
+
+.leftsideBar > ol > li {
+  list-style: none;
+  margin-bottom: 20px;
+  padding-left: 0px;
+}
+.navLink {
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px;
+  color: black;
+  font-weight: 600;
+}
+.navLink:hover {
+  color: blue;
+  transform: scale(1.1);
+  transition: color 0.3s ease-in-out;
+}

@@ -1,0 +1,17 @@
+:root {
+  --primery-color: #6484a6;
+  --secondary-color: rgb(251, 96, 96);
+  --font-size: 40px;
+}
+
+.button-common {
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  border: solid 0px;
+  font-weight: 500;
+}
+.button-common:hover {
+  transform: scale(1.1);
+  font-weight: 800;
+}

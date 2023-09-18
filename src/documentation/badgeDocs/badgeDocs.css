@@ -1,0 +1,12 @@
+.badgedocs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.badgedocs > div:nth-child(4) {
+  display: flex;
+  border: 1px solid;
+  width: 150px;
+  margin: auto;
+}

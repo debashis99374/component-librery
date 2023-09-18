@@ -1,0 +1,20 @@
+.alert {
+  padding: 5px;
+  border: solid 0px;
+  border-radius: 5px;
+  display: flex;
+  gap: 5px;
+  width: 500px;
+}
+.succes {
+  background-color: greenyellow;
+  color: green;
+}
+.fail {
+  background-color: rgb(253, 127, 127);
+  color: red;
+}
+.warning {
+  background-color: yellow;
+  color: rgb(159, 159, 2);
+}

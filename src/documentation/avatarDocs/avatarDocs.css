@@ -1,0 +1,10 @@
+.avatardocs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+.avatardocs div > img {
+  margin-right: 10px;
+}

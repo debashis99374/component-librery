@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.app-div {
+  display: flex;
+}
+.app-div > div:nth-child(1) {
+  width: 15%;
+}
+.app-div > div:nth-child(2) {
+  width: 85%;
+}

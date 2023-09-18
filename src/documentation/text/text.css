@@ -1,0 +1,12 @@
+.textdocs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.textdocs div {
+  width: 500px;
+  padding: 20px;
+  border: solid 1px;
+}

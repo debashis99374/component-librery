@@ -1,0 +1,25 @@
+@import "../../root.css";
+.component {
+  margin-left: 20px;
+}
+.component > h2 {
+  text-align: start;
+}
+.component-div {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.component-div > p {
+  width: 30%;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(245, 250, 248);
+  border: 0.5px solid;
+  border-radius: 5px;
+}
+.component-div > p:hover {
+  cursor: pointer;
+  background-color: var(--primery-color);
+  color: var(--secondary-color);
+}

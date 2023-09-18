@@ -1,0 +1,18 @@
+@import "../../root.css";
+.home {
+  margin-top: 200px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home > p {
+  color: rgb(76, 75, 75);
+}
+
+.home > button {
+}
+.home > button:hover {
+  color: rgb(76, 75, 75);
+}

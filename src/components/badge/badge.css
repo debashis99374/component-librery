@@ -1,0 +1,32 @@
+.badgeA {
+  position: relative;
+  width: 70px;
+}
+.badgeA > img {
+  width: 100%;
+}
+.badgeA > span {
+  position: absolute;
+  left: 40px;
+  background-color: rgb(199, 198, 198);
+  color: gray;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+}
+.badgeI {
+  position: relative;
+  width: 70px;
+}
+.badge-photo {
+  font-size: 50px;
+}
+.badgeI > span {
+  position: absolute;
+  left: 40px;
+  background-color: rgb(199, 198, 198);
+  color: gray;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+}
